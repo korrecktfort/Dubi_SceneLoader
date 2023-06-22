@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c58ef982602349a4f806bd2df9a8cf35, type: 3}
+  m_Name: New Scene Loader Table
+  m_EditorClassIdentifier: 
+  value: 0
+  constantValue: 0
+  asyncSceneLoaderGroups:
+  - groupName: First Chapter
+    labelReferences:
+    - m_LabelString: InteractionScene
+  - groupName: Second Chapter
+    labelReferences:
+    - m_LabelString: InteractionScene
+    - m_LabelString: InventoryScene
+  - groupName: Third Chapter
+    labelReferences:
+    - m_LabelString: InventoryScene
