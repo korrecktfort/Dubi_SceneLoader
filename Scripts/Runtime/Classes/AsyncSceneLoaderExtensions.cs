@@ -10,7 +10,7 @@ using UnityEditor.AddressableAssets.Settings;
 using UnityEditor.SceneManagement;
 #endif
 
-namespace Rubi.SceneLoader
+namespace Dubi.SceneLoader
 {
     public static class AsyncSceneLoaderExtensions
     {

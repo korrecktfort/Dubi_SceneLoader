@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Rubi.BaseValues;
+using Dubi.BaseValues;
 
-namespace Rubi.SceneLoader
+namespace Dubi.SceneLoader
 {
     [System.Serializable]
     public class SceneLoaderTableValue : GenericBaseValue<int, SceneLoaderTableObject, BaseValueUpdater>, ISerializationCallbackReceiver

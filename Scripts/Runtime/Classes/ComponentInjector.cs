@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace Rubi.SceneLoader
+namespace Dubi.SceneLoader
 {
     public class ComponentInjector
     {

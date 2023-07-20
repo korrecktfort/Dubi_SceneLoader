@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
-using Rubi.SceneLoader;
+using Dubi.SceneLoader;
 
 [CustomEditor(typeof(SceneLoader))]
 public class SceneLoaderDrawer : Editor

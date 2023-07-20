@@ -1,10 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Rubi.BaseValues;
+using Dubi.BaseValues;
 using UnityEngine.AddressableAssets;
 
-namespace Rubi.SceneLoader
+namespace Dubi.SceneLoader
 {
     [CreateAssetMenu(menuName ="Dubi/Scene Loader/Scene Loader Table")]
     public class SceneLoaderTableObject : GenericValueObject<int>

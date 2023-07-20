@@ -5,7 +5,7 @@ using UnityEngine.AddressableAssets;
 using UnityEditor.AddressableAssets;
 using UnityEditor;
 
-namespace Rubi.SceneLoader.CustomDrawer
+namespace Dubi.SceneLoader.CustomDrawer
 {
     [CustomPropertyDrawer(typeof(ALR_NoLabel))]
     public class AssetLabelReferenceNoLabelDrawer : PropertyDrawer

@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.ResourceManagement.ResourceProviders;
 using System.Linq;
-using Dubi.Singleton;
+using Dubi.SingletonSpace;
 
-namespace Rubi.SceneLoader
+namespace Dubi.SceneLoader
 {
     public class LoadedSceneInstances : Singleton<LoadedSceneInstances>
     {    

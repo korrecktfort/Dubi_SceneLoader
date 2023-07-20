@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 
-namespace Rubi.SceneLoader
+namespace Dubi.SceneLoader
 {
     public class SceneLoader : MonoBehaviour
     {

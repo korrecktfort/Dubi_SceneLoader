@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Rubi.SceneLoader;
+using Dubi.SceneLoader;
 using UnityEditor;
-using Rubi.BaseValues;
+using Dubi.BaseValues;
 
 [CustomPropertyDrawer(typeof(SceneLoaderTableValue))]
 public class SceneLoaderTableValueDrawer : BaseValueDrawer<SceneLoaderTableObject>

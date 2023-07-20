@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.ResourceProviders;
-using Rubi.SceneLoader.CustomDrawer;
+using Dubi.SceneLoader.CustomDrawer;
 
-namespace Rubi.SceneLoader
+namespace Dubi.SceneLoader
 {    
     /// TO DO: Unloading and Loading Scenes in EDITOR
 
