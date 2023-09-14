@@ -30,7 +30,7 @@ public class SceneLoaderTableValueDrawer : BaseValueDrawer<SceneLoaderTableObjec
             rawValueProp.serializedObject.ApplyModifiedProperties();
 
             if(EditorApplication.isPlaying)
-            ((BaseValue)property.serializedObject.targetObject).Call();
+                ((BaseValue)property.serializedObject.targetObject).OnValueChanged();
             
         }
     }
